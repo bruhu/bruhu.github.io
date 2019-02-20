@@ -1,0 +1,131 @@
+html {
+  background-image: url(./img/shattered-island.gif);
+}
+/*background image source: http://thepatternlibrary.com/#wild-sea */
+
+* {
+}
+
+body {
+  font-family: "Hind Guntur", sans-serif;
+  font-weight: 100;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  margin: 2em;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  color: honeydew;
+  align-items: center;
+}
+
+.row > * {
+  flex: 1;
+}
+
+.row > img {
+  width: auto;
+  border-radius: 10px;
+}
+
+.rowEffect:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.playPauseContainer {
+  font-size: 25px;
+  color: rgba(240, 255, 240, 0.712);
+}
+
+/* Hover effect for play and pause buttons */
+.far:hover {
+  color: rgba(255, 105, 180, 0.678);
+}
+
+.coverimgcontainer {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.coverimg {
+  border-radius: 2px;
+  align-self: center;
+}
+
+.th {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 1em;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 0.01em;
+  color: honeydew;
+  margin-bottom: 3em;
+}
+
+#searchForm {
+  float: right;
+  color: white;
+}
+
+.fa-search {
+  padding-right: 8px;
+}
+
+#searchInput {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* label {
+  float: right;
+  padding: .3em;
+  border: none;
+  outline: none;
+} */
+
+p,
+h3 {
+  color: honeydew;
+}
+
+h1 {
+  color: rgba(255, 105, 180, 0.678);
+  letter-spacing: 20px;
+  font-family: "Passion One", cursive;
+  font-size: 50px;
+  padding-bottom: 2em;
+}
+
+h3 {
+  font-weight: 100;
+  font-style: italic;
+}
+
+#price,
+#artist,
+#track,
+.far {
+  cursor: pointer;
+}
+
+#price:hover,
+#artist:hover,
+#track:hover {
+  color: rgba(255, 105, 180, 0.678);
+}
+
+/*  */
+
+.defTemplateMessage {
+  font-style: italic;
+  color: honeydew;
+  text-align: center;
+}
